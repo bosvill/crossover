@@ -1,14 +1,14 @@
-import React from 'react';
-import Hero from './Hero';
-import Promo from './Promo';
+import React from 'react'
+import Hero from './Hero'
+import LetsGo from './LetsGo'
 
 const Home = () => {
-    return (
-        <>
-           <Hero/>
-           <Promo/> 
-        </>
-    );
+	return (
+		<>
+			<Hero />
+			<LetsGo />
+		</>
+	)
 }
 
-export default Home;
+export default Home
