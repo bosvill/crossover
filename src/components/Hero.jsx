@@ -12,7 +12,7 @@ const Hero = () => {
 				for hiking
 			</h1>
 			<h3 className={styles.h3}>Loremipusum dolor</h3>
-			<Button className={styles.lightBtn}> Read more </Button>
+			<Button className='btn light'> Read more </Button>
 			<p className={styles.italic}>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit,
 				accusantium laborum velit, tempora fugit et dolore magna.

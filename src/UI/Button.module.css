@@ -16,3 +16,8 @@
   background-color: var(--hover);
 }
 
+.light {
+	background-color: #fffefd;
+	color: #836c64;
+}
+

@@ -6,7 +6,7 @@
 	align-items: center;
 	background: url('/hero.jpg');
 	background-size: cover;
-	/*  padding-left: 3rem; */
+	background-position: center;
 }
 .content {
 	width: 35%;
@@ -33,13 +33,34 @@
     font-weight: 500;
 }
 
-.light-btn {
-	background-color: #fffefd;
-	color: #836c64;
-}
+
 
 .italic {
     font-style: italic;
     color: var(--font3);
     font-size: 1.2rem;
 }
+
+@media  (max-width:705px) {
+    .hero {
+        background-position: none;
+    }
+    .content{
+        width: 70%;
+        
+    }
+    .h1{
+        font-size: 4rem;
+    }
+    .h3{
+        font-size: 1.2rem;
+    }
+    .italic {
+        font-style: italic;
+        color: var(--font3);
+        font-size: 1.1rem;
+    }
+    
+}
+
+
