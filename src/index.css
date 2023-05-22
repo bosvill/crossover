@@ -69,14 +69,4 @@ input {
 .form-container {
 	padding-right: 1rem;
 }
-/* <style>
-      .form-container {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-      }
-      .form-container input[type="button"] {
-      margin-left: 10px;
-      margin-bottom: 10px;
-    }
-    </style> */
+
