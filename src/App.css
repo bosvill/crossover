@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+:root {
+  --nav-dark:#e5e1da;
+  --bg-light:#dad6cf;
+  --bg-darker:#807970;
+  --bg-dark:#4a4a49;
+  --accent:#edb47c;
+  --hover:#c7ae93;
+  --font1:#7c6c64;
+  --font2:#54514e;
+  --fe:#fefefd;
+}
