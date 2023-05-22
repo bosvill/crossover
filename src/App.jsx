@@ -6,6 +6,7 @@ import Contact from './components/Contact'
 import Story from './components/Story'
 import LetsGo from './components/LetsGo'
 
+
 function App() {
 	const router = createBrowserRouter(
 		createRoutesFromElements(
