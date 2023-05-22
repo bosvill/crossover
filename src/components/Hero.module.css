@@ -1,0 +1,45 @@
+.hero {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	background: url('/hero.jpg');
+	background-size: cover;
+	/*  padding-left: 3rem; */
+}
+.content {
+	width: 35%;
+	margin-left: 4rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 2rem;
+    
+}
+
+.h1 {
+	color: var(--accent);
+	font-size: 5rem;
+	font-weight: 600;
+}
+
+.h3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: var(--font3);
+    font-weight: 500;
+}
+
+.light-btn {
+	background-color: #fffefd;
+	color: #836c64;
+}
+
+.italic {
+    font-style: italic;
+    color: var(--font3);
+    font-size: 1.2rem;
+}
