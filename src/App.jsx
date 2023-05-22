@@ -5,6 +5,7 @@ import Home from './components/Home'
 import Contact from './components/Contact'
 import Story from './components/Story'
 
+
 function App() {
 	const router = createBrowserRouter(
 		createRoutesFromElements(

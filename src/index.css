@@ -31,6 +31,8 @@ a {
   font-weight: 500;
   color: var(--font2);
   text-decoration: none;
+  float: none;
+  margin: 100px;
 }
 a:hover {
   color: var(--hover);
@@ -40,10 +42,9 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-
-
-
-  
+.active {
+  color: var(--hover);
+}
 
 
 
